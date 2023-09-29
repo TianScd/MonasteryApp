@@ -10,10 +10,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Foto Circular con Descripción'),
+          backgroundColor: Color(0xFF5A7F78),
+          title: Text('Foto Circular'),
         ),
+        backgroundColor: Color(0xFFF7F8FC),
         body: Center(
           child: ProfileWidget(),
+        ),
+        bottomNavigationBar: BottomAppBar(
+          color: Color(0xFF5A7F78),
+          child: Container(
+            height: 70,
+            alignment: Alignment.center,
+            child: Text('Barra Inferior',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+            ),
+          ),
         ),
       ),
     );
