@@ -28,7 +28,7 @@ class ProfileWidget extends StatelessWidget {
       children: <Widget>[
         CircleAvatar(
           radius: 60, // Tamaño del círculo de la foto
-          backgroundImage: NetworkImage('https://anime.atsit.in/es/wp-content/uploads/2022/12/habra-una-temporada-2-de-bocchi-the-rock-todo-lo-que-sabemos-hasta-ahora.webp'), // Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen
+          backgroundImage: NetworkImage('https://s2.ppllstatics.com/laverdad/www/multimedia/201709/22/media/cortadas/maluma-U30796053859k7D--624x392@La%20Verdad-LaVerdad.jpg'), // Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen
         ),
         SizedBox(height: 20), // Espacio entre la foto y la descripción
         Text(
